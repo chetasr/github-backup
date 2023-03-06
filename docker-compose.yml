@@ -1,0 +1,17 @@
+version: '3'
+services:
+  backup-backend:
+    build: ./backend
+    container_name: backup-backend
+    volumes:
+      - ./config/db:/app/db
+      - ./config/backups:/app/backups
+    ports:
+      - 8000:8000
+
+
+  backup-frontend:
+    build: ./frontend
+    container_name: backup-frontend
+    ports:
+      - 3000:3000
