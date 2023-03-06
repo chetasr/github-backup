@@ -1,0 +1,17 @@
+[
+    {
+        "repo": "agronholm/apscheduler",
+        "branch": "master",
+        "cron": "* * * * *"
+    },
+    {
+        "repo": "agronholm/apscheduler",
+        "branch": "master",
+        "cron": "* * * * *"
+    },
+    {
+        "repo": "agronholm/apscheduler",
+        "branch": "master",
+        "cron": "* * * * *"
+    }
+]
